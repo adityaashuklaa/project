@@ -1,0 +1,37 @@
+.box4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0px;
+    background-color: #111660;
+    padding: 25px;
+    color: #fff;
+    position: relative;
+}
+.left4 img{
+    width: 500px;
+    border-radius: 4px;
+    position: absolute;
+    top: 65px;
+    right: 85px;
+}
+.right4{
+    width: 310px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right4 h1{
+    font-size: 24px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.right4 p{
+    font-size: 12px;
+}
+.sub7 a{
+    text-decoration: none;
+    color: #4189b9;
+    font-weight: 600;
+  }

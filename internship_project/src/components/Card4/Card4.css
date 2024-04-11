@@ -1,0 +1,18 @@
+.box_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 0px;
+    padding: 70px;
+    flex-wrap: wrap;
+    background-color: #F6F5EF;
+}
+.boxer1{
+    width: 237px;
+    height: 175px;
+    padding: 20px;
+}
+.boxer1 h1{
+    font-size: 16px;
+}

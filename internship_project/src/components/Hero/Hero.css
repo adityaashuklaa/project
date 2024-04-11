@@ -1,0 +1,37 @@
+.main-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sub1 h1 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+  .sub2 p, .sub3 p{
+    font-size: 18px;
+    font-weight: 500;
+  }
+.sub4 a{
+    text-decoration: none;
+    color: #4189b9;
+    font-weight: 600;
+  }
+.sub4{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+.circle{
+  width: 30px;
+  height: 30px;
+  background-color: #E3F2FB;
+  border-radius: 50%;
+  z-index: -10;
+  margin-left: -25px;
+}
+.arrow p{
+  font-size: 25px;
+  color: #4189b9;
+}

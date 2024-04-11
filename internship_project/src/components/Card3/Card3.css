@@ -1,0 +1,26 @@
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #f4f4f4;
+    padding: 25px;
+}
+.left2 img{
+    width: 500px;
+    border-radius: 8px;
+}
+.right2{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right2 h1{
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+.right2 p{
+    font-size: 12px;
+}

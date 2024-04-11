@@ -1,0 +1,32 @@
+.main-13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sub-4 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40px;
+}
+  .sub-5 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.left-13 {
+    order: 2;
+    width: 695px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-13 img {
+    order: 1;
+    width: 350px;
+}
+.sub10 a{
+    text-decoration: none;
+    color: #4189b9;
+    font-weight: 600;
+  }

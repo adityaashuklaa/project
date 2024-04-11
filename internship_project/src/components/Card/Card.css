@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body, button{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.nav{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  border-bottom: 2px solid rgb(170, 169, 169, 0.2);
+}
+.left-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+#logo img{
+  width: 50px;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.navbar ul li {
+  list-style: none;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #002E87;
+}
+.btn-1{
+  background-color: white;
+  color: #002E87;
+  padding: 8px 25px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #002E87;
+  margin-right: 10px;
+}
+.btn-2{
+  background-color: #002E87;
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #002E87;
+}
+.main-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 60px;
+}
+.heading-btn button{
+  font-size: 18px;
+  padding: 15px 20px;
+}
+.heading-1 h1{
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 75px;
+}
+.heading-1 p{
+  margin-top: -25px;
+  font-weight: 500;
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img{
+  width: 80%;
+}
+.main-2{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 40px;
+}
+.left-1{
+  width: 345px;
+  padding-right: 150px;
+  border-right: 2px solid rgb(166, 165, 165);
+}
+.left-1 h1{
+  font-size: 6rem;
+  margin: 0px;
+  color: #002E87;
+  font-weight: 600;
+}
+.left-1 p{
+  font-size: 1.7rem;
+}
+.right-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 442px;
+  margin-left: 80px;
+}
+.subhead-1{
+  border-bottom: 2px solid rgb(166, 165, 165);
+  padding-bottom: 45px;
+}
+.subhead-1 h1, .subhead-2 h1{
+  color: #002E87;
+  font-weight: 500;
+}
+.subhead-1 p, .subhead-2 p {
+  font-size: 17px;
+  font-weight: 500;
+}

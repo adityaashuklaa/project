@@ -1,0 +1,10 @@
+.holder{
+    width: 80%;
+    margin-left: 10%;
+    padding: 40px 0px;
+}
+.holder p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #7c7575;
+}

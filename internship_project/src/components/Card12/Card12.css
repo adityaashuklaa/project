@@ -1,0 +1,30 @@
+.main-wrapper2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+    border-bottom: 2px solid gray;
+    padding: 55px 0;
+}
+.left_wrap1{
+    width: 450px;
+    height: 175px;
+    padding: 0px 20px;
+    border-right: 2px solid grey;
+}
+.right_wrap1{
+    width: 470px;
+    height: 175px;
+    padding: 0px 20px;
+}
+.left_wrap1 h1, .right_wrap1 h1{
+    font-size: 16px;
+}
+.sub9 a{
+    text-decoration: none;
+    color: #4189b9;
+    font-weight: 600;
+  }

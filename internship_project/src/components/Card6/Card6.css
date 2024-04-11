@@ -1,0 +1,16 @@
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+}
+.boxer1{
+    width: 237px;
+    height: 175px;
+    padding: 20px;
+}
+.boxer1 h1{
+    font-size: 16px;
+}
